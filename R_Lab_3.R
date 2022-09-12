@@ -1,4 +1,18 @@
 #1.1 Write the R code
+#1.1.1 euclidean()
+euclidean<-function(a,b){
+  if(a<b){
+    exc=b
+    b=a
+    a=exc
+  }
+  while(b!=0){
+    t=b
+    b=a%%b
+    a=t
+  }
+  return(a)
+}
 
 #1.1.2 * dijkstra()
 dijkstra<-function(graph,init_node){
