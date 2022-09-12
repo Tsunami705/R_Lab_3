@@ -17,10 +17,6 @@ the greatest common divisor of a and b
 \description{
 `euclidean()` Calculate the greatest common divisor between numbers a and b.
 }
-\examples{
-euclidean(9,27)
-
-}
 \seealso{
 https://en.wikipedia.org/wiki/Euclidean_algorithm
 }
