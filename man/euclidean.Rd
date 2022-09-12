@@ -7,7 +7,9 @@
 euclidean(a, b)
 }
 \arguments{
-\item{scalar}{number b}
+\item{a}{number a}
+
+\item{b}{number b}
 }
 \value{
 the greatest common divisor of a and b

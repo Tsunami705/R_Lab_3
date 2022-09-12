@@ -2,8 +2,8 @@
 #'
 #' `euclidean()` Calculate the greatest common divisor between numbers a and b.
 #'
-#' @param scalar number a
-#' @param scalar number b
+#' @param a number a
+#' @param b number b
 #' @returns the greatest common divisor of a and b
 #' @seealso https://en.wikipedia.org/wiki/Euclidean_algorithm
 #' @examples
