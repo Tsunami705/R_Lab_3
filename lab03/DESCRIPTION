@@ -1,0 +1,17 @@
+Package: lab03
+Type: Package
+Title: Implements of the euclidean algorithm and the dijkstra algorithm
+Version: 1.0
+Date: 2022-09-12
+Authors@R: 
+    c(person("Shipeng", "Liu", email = "shili506@student.liu.se",
+    role = c("aut", "cre")),
+    person("Jin", "Yan", email = "jinya425@student.liu.se", 
+    role = "aut"))
+Maintainer: Shipeng Liu <tsunami70510954@gmail.com>
+Description: euclidean() function impliment finding the greatest common divisor between 2 numbers,
+    dijkstra() is a greedy algorithm for finding the shortest path
+License: GPL-3
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.2.1
