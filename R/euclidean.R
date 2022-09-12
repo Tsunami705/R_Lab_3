@@ -7,7 +7,7 @@
 #' @returns the greatest common divisor of a and b
 #' @seealso https://en.wikipedia.org/wiki/Euclidean_algorithm
 #' @examples
-#' euclidean(a,b)
+#' euclidean(9,27)
 #'
 #' @export
 #' 

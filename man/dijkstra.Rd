@@ -7,8 +7,7 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{should be a data.frame with three variables (v1, v2 and w) that contains the edges of the graph (from
-v1 to v2) with the weight of the edge (w).}
+\item{graph}{should be a data.frame with three variables (v1, v2 and w) that contains the edges of the graph (from v1 to v2) with the weight of the edge (w).}
 
 \item{init_node}{is a numeric scalar thatexist in the graph,which is the starting node.}
 }
@@ -16,8 +15,7 @@ v1 to v2) with the weight of the edge (w).}
 The shortest path to every other node from the starting node as a vector.
 }
 \description{
-`dijkstra()`  takes a graph and an initial node and calculates the shortest path from the
-initial node to every other node in the graph.
+`dijkstra()`  takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.
 }
 \examples{
 wiki_graph <-
