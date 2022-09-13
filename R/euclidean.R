@@ -13,6 +13,8 @@
 #' 
 euclidean <-
 function(a,b){
+  a=abs(a)
+  b=abs(b)
   if(a<b){
     exc=b
     b=a

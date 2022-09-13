@@ -14,6 +14,12 @@
 #' 
 dijkstra <-
 function(graph,init_node){
+  stopifnot(names(graph)==c('v1','v2','w'))
+  stopifnot(init_node<=max(graph[[1]]) & init_node>0)
+  stopifnot(is.data.frame(graph))
+  stopifnot(is.numeric(init_node))
+  stopifnot(length(init_node)==1)
+  stopifnot(is.numeric(graph[[1]]) & is.numeric(graph[[2]]) & is.numeric(graph[[3]]))
   nodes_num=length(unique(graph[,1]))
   dist<-vector(mode="numeric",length=nodes_num)
   prev<-vector(mode="numeric",length=nodes_num)
