@@ -13,6 +13,8 @@
 #' 
 euclidean <-
 function(a,b){
+  stopifnot(length(a)==1 & is.numeric(a))
+  stopifnot(length(b)==1 & is.numeric(b))
   a=abs(a)
   b=abs(b)
   if(a<b){
